@@ -1,0 +1,8 @@
+CHIP HalfAdder {
+    IN a, b;    
+    OUT sum,    
+        carry;  
+
+    PARTS:
+    BUILTIN HalfAdder;
+}
